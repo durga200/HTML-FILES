@@ -1,0 +1,13 @@
+.img{
+    border: 5px solid;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+img{
+    width: 400px;
+
+}
