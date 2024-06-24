@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.page{
+    background: url(https://images.pexels.com/photos/1213447/pexels-photo-1213447.jpeg?cs=srgb&dl=pexels-lil-artsy-1213447.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    border: 1px solid whitesmoke;
+    position: relative;
+    left: 30%;
+    top: 15%;
+    width: 40%;
+    height: 70%;
+    box-shadow: 2px 4px 6px whitesmoke;
+}
+    
+.container .content{
+    border: 1px solid;
+    height: 50%;
+    color: white;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_a6aeKNkdcDnp7PilsYCdqgFjyagvHU4YdJZqHU_r2axGcmYZFX1G3_Ix0T-gZJyrNG8&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.container .content .top{
+    margin: 50px 180px;
+    position: absolute;
+}
+.container .content .top h2{
+    text-align: center;
+}
+.container .content .top p{
+    text-align: center;
+    margin:20px 0px 0px 50px;
+    background-color: orange;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container .content .top .wel{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container .content2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.container .content .top p:hover{
+    background-color: black;
+}
+.container .content2 .input .uname{
+    margin: 10px;
+    border-width: 1px solid grey;
+    border-radius: 2px;
+    padding: 20px;
+}
+.container .content2 .input .uname input{
+    padding:10px;
+}
+.container .content2 .input .password input
+{
+    padding:10px;
+}
+.container .content2 .input .password{
+    margin: 10px;
+}
+
+.container .content2 .input .btn button{
+    text-align: center;
+    margin:20px 0px 0px 0px;
+    background-color: orange;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}

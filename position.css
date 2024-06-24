@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    
+    width: 100vw;
+    height: 100vh;
+    font-size: 20px;
+}
+.nav{
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    background-color: #0C359E;
+    position: fixed;
+}
+.nav header{
+    position:relative ;
+    color: whitesmoke;
+    top: 5px;
+    left: 10px;
+}
+
+.nav header .logo{
+    position: relative;
+    left: 100px;
+    top: 5px;
+    color: whitesmoke;
+}
+
+.nav header .logo span{
+    color: orangered;
+}
+
+.nav header .list1 ul{
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+    position: relative;
+    margin-top: -40px;
+}
+
+.nav header .list1 ul li{
+    padding: 20px;
+    position: relative;
+    margin: 2px 2px;
+    border-radius: 10px;
+    margin-top: -5px;
+}
+.nav header .list1 ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav header .list1 ul li a:hover{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    opacity: 0.2;
+}
+
+.home .nav .list2{
+    position:relative ;
+    color: white;
+    top: 30px;
+    left: 200px;
+}
+.nav .list2 ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    position: relative;
+    margin-top: -30px;
+}
+
+.nav .list2 ul li{
+    padding: 20px;
+    position: relative;
+    margin: 2px 2px;
+    border-radius: 10px;
+    margin-top: -1px;
+}
+
+.nav .list2 ul li .button a{
+    
+    margin: 2px 2px;
+}
+.nav  .list2 ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.home  .head h1{
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+}
+.content{
+    background: #3333;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ .cover{
+    width: 1000px;
+    height: 400px;
+    /*background: #000;*/
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    
+}
+.box{
+    margin: 10px 30px;
+    width: 800px ;
+    height: 500px;
+    box-shadow: -1px 0 10px #000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*background-color: black;*/
+}
+.box1{
+    margin: 10px 30px;
+    width: 800px ;
+    height: 500px;
+    box-shadow: -1px 0 10px #000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*background-color: black;*/
+}
+.box2{
+    margin: 10px 30px;
+    width: 800px ;
+    height: 500px;
+    box-shadow: -1px 0 10px #000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*background-color: black;*/
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+

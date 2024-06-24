@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Inconsolata:wght@200..900&family=Nanum+Myeongjo&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body .page1{
+    width: 100vw;
+    height: 100vh;
+    font-size: 20px;
+    background: url(https://images.lifestyleasia.com/wp-content/uploads/2019/02/12084046/ion-hotel-slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.box1{
+    width: 100vw;
+}
+.nav1{
+    top: 0;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    background-color: #0C359E;
+    position: fixed;
+}
+.nav1 .logo{
+    position:relative ;
+    color: whitesmoke;
+    top: 13px;
+    left: 50px;
+}
+.logo span{
+    color: orange;
+}
+.nav1 .list1 ul{
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    position: relative;
+    margin-top: 15px;
+}
+.nav1 .list1 ul li{
+    padding: 20px;
+    position: relative;
+    margin: 2px 2px;
+    border-radius: 10px;
+    margin-top: -5px;
+    
+}
+.nav1 .list1 ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.page1 .nav1 .list2{
+    position:relative ;
+    color: white;
+    top: 30px;
+    left: 200px;
+}
+.nav1 .list2 ul{
+    display: flex;
+    list-style: none;
+   left: 50px;
+    position: relative;
+    margin-top: -23px;
+}
+
+.nav1 .list2 ul li{
+    display: flex;
+    padding: 20px;
+    position: relative;
+    margin: 2px 2px;
+    margin-top: 3px;
+
+}
+
+.nav1 .list2 ul .button li{
+    border-radius: 4px;
+    padding:  10px 14px;
+    margin: 13px 10px;
+    cursor: pointer;
+    background-color: #00A9FF;
+    
+}
+.nav1  .list2 ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.box2{
+    width: 100vw;
+    position: absolute;
+    margin-top: 100px;
+}
+.box2 .nav2{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+   top: 80px;
+    background-color: orange;
+    position: fixed;
+}
+.nav2 ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 100px;
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.box2 .nav2 ul li .Keyword input {
+    padding:  10px 20px;
+    
+}
+.box2 .nav2 ul li button{
+    padding:  10px 20px;
+}
+.nav2  ul .button li{
+    border-radius: 4px;
+  
+    cursor: pointer;
+    background-color: #00A9FF;
+    
+}
+.nav2 ul li a{
+    text-decoration: none;
+}
+
+.page1 .content{
+    margin-top: 400px;
+    margin-left: 50px;
+    position: absolute;
+    color: white;
+}
+
